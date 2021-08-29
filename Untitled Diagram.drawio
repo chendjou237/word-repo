@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T12:38:38.593Z" agent="5.0 (X11)" etag="kmr8ENELhvRCFGm9xRtP" version="14.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-29T00:00:58.996Z" agent="5.0 (X11)" etag="JhFvNYhAFCK-qSI8as_q" version="14.9.9" type="github">
   <diagram id="fhpa1yW14Nf8clvQcn4W" name="Page-1">
     <mxGraphModel dx="868" dy="1595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="900" y="-460" width="60" height="130" as="geometry" />
         </mxCell>
         <mxCell id="AIOXDdsMLLMwucUnHABV-1" value="Log In" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="-620" width="120" height="80" as="geometry" />
+          <mxGeometry x="110" y="-680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AIOXDdsMLLMwucUnHABV-2" value="Register" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="-750" width="120" height="80" as="geometry" />
@@ -86,21 +86,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AIOXDdsMLLMwucUnHABV-28" value="edit info" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="305" y="-460" width="105" height="50" as="geometry" />
+          <mxGeometry x="320" y="-500" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AIOXDdsMLLMwucUnHABV-29" value="wrong password" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="-550" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AIOXDdsMLLMwucUnHABV-31" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.083;entryY=0.775;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AIOXDdsMLLMwucUnHABV-1" target="AIOXDdsMLLMwucUnHABV-30" edge="1">
+        <mxCell id="AIOXDdsMLLMwucUnHABV-31" value="pressed button" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.083;entryY=0.775;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AIOXDdsMLLMwucUnHABV-1" target="AIOXDdsMLLMwucUnHABV-30" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="425" y="-560" as="sourcePoint" />
             <mxPoint x="585" y="-560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AIOXDdsMLLMwucUnHABV-36" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.388;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;" parent="1" source="AIOXDdsMLLMwucUnHABV-30" target="AIOXDdsMLLMwucUnHABV-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="-520" as="sourcePoint" />
-            <mxPoint x="440" y="-520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AIOXDdsMLLMwucUnHABV-38" value="" style="endArrow=none;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AIOXDdsMLLMwucUnHABV-28" target="PiePy1-SovwP09iOrNaZ-6" edge="1">
@@ -131,7 +125,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AIOXDdsMLLMwucUnHABV-30" value="verify password" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="425" y="-610" width="120" height="80" as="geometry" />
+          <mxGeometry x="530" y="-680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A-I4qOjjlUj8XRTmBUHy-9" value="if not yet register" style="endArrow=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.767;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AIOXDdsMLLMwucUnHABV-2" target="AIOXDdsMLLMwucUnHABV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -140,7 +134,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A-I4qOjjlUj8XRTmBUHy-10" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AIOXDdsMLLMwucUnHABV-29" target="AIOXDdsMLLMwucUnHABV-30">
+        <mxCell id="A-I4qOjjlUj8XRTmBUHy-10" value="if passed was incorrect" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AIOXDdsMLLMwucUnHABV-29" target="AIOXDdsMLLMwucUnHABV-30">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="380" y="-510.5" as="sourcePoint" />
             <mxPoint x="540" y="-510.5" as="targetPoint" />
@@ -168,6 +162,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="-110" as="sourcePoint" />
             <mxPoint x="490" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-I4qOjjlUj8XRTmBUHy-16" value="recover password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A-I4qOjjlUj8XRTmBUHy-17" value="forget password" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="A-I4qOjjlUj8XRTmBUHy-16" target="AIOXDdsMLLMwucUnHABV-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="-500" as="sourcePoint" />
+            <mxPoint x="510" y="-500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
